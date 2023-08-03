@@ -1,0 +1,44 @@
+﻿.article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .article li:nth-child(2n) {
+        background: #fff;
+    }
+
+    .article li:nth-child(odd) {
+        background: #fafafa;
+    }
+
+    .article li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: center;
+        padding: 1.8rem;
+    }
+
+        .article li span {
+            width: 10rem;
+            color: #aaa;
+            text-align: center;
+        }
+
+    .article a {
+        color: #4f7dde;
+        padding: 0 1.5rem;
+        text-decoration: none;
+    }
+
+        .article a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+
+.archive-main {
+    width: 100%;
+}

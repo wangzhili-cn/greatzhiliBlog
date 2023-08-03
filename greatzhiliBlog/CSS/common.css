@@ -1,0 +1,187 @@
+﻿html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #e4e4e4;
+    font-size: 2rem;
+}
+
+.main {
+    max-width: 880px;
+    padding: 0.5rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.paper {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 5px 13px #616161, -5px -5px 13px #fff;
+    margin:1.5rem 0;
+    padding: 0 8rem;
+    /*background-color: #facfcf;*/
+}
+
+.header {
+    width: 100%;
+}
+
+.header-line {
+    width: 50%;
+    font-size: 1.5rem;
+    color: #aaa;
+    margin: 25px auto;
+    text-align: center;
+    font-style: italic;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+    .header-container img {
+        width: 8rem;
+    }
+
+.header-description {
+    display: flex;
+    margin-left: 3rem;
+    flex-direction: column;
+}
+
+    .header-description a {
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        /*flex: 0 0 100%;*/
+        text-decoration: none;
+        color: #4f7dde;
+    }
+        /*超链接伪类*/
+        .header-description a:hover {
+            color: -webkit-link;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+    .header-description span {
+        font-size: smaller;
+        color: #9c9caf;
+    }
+
+.header-nav {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+    .header-nav ul {
+        margin: 1rem 0;
+        flex: 0 0 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .header-nav li {
+        padding: 2px 0;
+        margin-right: 2.5rem;
+        display: flex;
+        color: #aaa;
+        align-content: center;
+    }
+
+        .header-nav li a {
+            color: #4f7dde;
+            text-decoration: none;
+        }
+
+            .header-nav li a:hover {
+                cursor: pointer;
+                font-weight: 600;
+                color: orange;
+                text-decoration: overline;
+            }
+
+/*中间内容样式*/
+.main-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.time {
+    margin: 2rem;
+}
+
+.main-content {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+}
+
+/*
+    
+    中间独有替换内容
+
+*/
+
+/*中间内容靠底*/
+.main-bottom {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/*邮箱链接*/
+.sign {
+    font-size: 1.8rem;
+    color: #aaa;
+    margin: 2.5rem auto;
+    text-align: center;
+    font-style: italic;
+}
+
+    .sign a {
+        text-decoration: none;
+        color: #4f7dde;
+    }
+    .sign a:hover {
+        text-decoration: underline;
+        color: orange;
+    }
+
+.footer-line {
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 1rem;
+    background-color: #aaa;
+}
+
+.footer {
+    padding: 2rem;
+    font-size: 10px;
+    color: #aaa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    .footer a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #aaa;
+    }
+       
+    /*切换面板，情绪，留言板颜色*/
+.list-type {
+    color: orange;
+}

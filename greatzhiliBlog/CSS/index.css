@@ -1,0 +1,19 @@
+﻿/*中间内容独有*/
+.main-content-title {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.main-content ul {
+    display: block;
+    list-style-type: disc;
+    /* margin-block-start: 2em;*/
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.main-content li {
+    display: list-item;
+    margin: 1em;
+}
